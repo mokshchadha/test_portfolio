@@ -1,0 +1,25 @@
+
+#nav{
+    padding-top: 1vh;
+    background-color: var(--text-color);
+    height: 4vh;
+    position: fixed;
+    width: 100%;
+}
+
+#nav a {
+ margin: 1rem;
+ padding: 1rem;
+
+ border: 1px solid var(--text-color);
+ border-radius: var(--border-radius);
+ text-decoration:none;
+ transition: all 500ms ease;
+ color: var(--bg-color)
+}
+
+#nav a:hover {
+    border: 1px solid var(--bg-color);
+    background-color: var(--bg-color);
+    color:var(--text-color)
+   }
